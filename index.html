@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BMT Striking Patterns</title>
+    <link rel="stylesheet" type="text/css" href="bmtpatterns.css">
+  </head>
+
+  <body>
+    <p>Select pattern:</p>
+    <button onClick="window.location.reload();">Reset</button>
+
+    <section>
+      <div id="options">
+        <h2> Punches </h2>
+        <button onclick="jabPicture()" id="jab"> Jab </button>
+        <button onclick="crossPicture()" id="cross"> Cross </button>
+
+        <h2> Hooks </h2>
+        <button onclick="lHPicture()" id="leftHook"> Lead Hook </button>
+        <button onclick="rHPicture()" id="rightHook"> Rear Hook </button>
+
+        <h2> Upper Cuts </h2>
+        <button onclick="leftUCPicture()" id="leftUC"> Lead Upper Cut </button>
+        <button onclick="rightUCPicture()" id="rightUC"> Rear Upper Cut </button>
+ 
+        <h2> Overhands </h2>
+        <button onclick="rightOHPicture()" id="rightOH"> Rear Overhand </button>
+
+        <h2> Slips </h2>
+        <button onclick="leftSlipPicture()" id="leftSlip"> Lead Slip </button>
+        <button onclick="rightSlipPicture()" id="rightSlip"> Rear Slip </button>
+
+        <h2> Rolls </h2>
+        <button onclick="leftRollPicture()" id="leftRoll"> Lead Roll </button>
+        <button onclick="rightRollPicture()" id="rightRoll"> Rear Roll </button>
+
+        <h2> Bodies </h2>
+        <button onclick="leftBodyPicture()" id="leftBody"> Lead Body </button>
+        <button onclick="rightBodyPicture()" id="rightBody"> Rear Body </button> 
+
+        <h2> Switchbacks </h2>
+        <button onclick="picture()" id="leftSB"> Left Switchback </button>
+        <button onclick="picture()" id="rightSB"> Right Switchback </button> 
+      </div>
+    </section>
+
+    <section>
+      <div class="row"> 
+        <div class="column">
+          <h3>Orthodox</h3>
+          1. <img id="pic1" src="images/user.png" alt="" />
+          2. <img id="pic3" src="images/user.png" alt="" />
+          3. <img id="pic5" src="images/user.png" alt="" />
+          4. <img id="pic7" src="images/user.png" alt="" />
+          5. <img id="pic9" src="images/user.png" alt="" />
+          6. <img id="pic11" src="images/user.png" alt="" />
+          7. <img id="pic13" src="images/user.png" alt="" />
+          8. <img id="pic15" src="images/user.png" alt="" />
+        </div>
+        <div class="column">
+          <h3>Southpaw</h3>
+          <img id="pic2" src="images/user.png" alt="" />
+          <img id="pic4" src="images/user.png" alt="" />
+          <img id="pic6" src="images/user.png" alt="" />
+          <img id="pic8" src="images/user.png" alt="" />
+          <img id="pic10" src="images/user.png" alt="" />
+          <img id="pic12" src="images/user.png" alt="" />
+          <img id="pic14" src="images/user.png" alt="" />
+          <img id="pic16" src="images/user.png" alt="" />
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="column">
+          <h3>Orthodox</h3>
+          9. <img id="pic17" src="images/user.png" alt="" />
+          10. <img id="pic19" src="images/user.png" alt="" />
+          11. <img id="pic21" src="images/user.png" alt="" />
+          12. <img id="pic23" src="images/user.png" alt="" />
+          13. <img id="pic25" src="images/user.png" alt="" />
+          14. <img id="pic27" src="images/user.png" alt="" />
+          15. <img id="pic29" src="images/user.png" alt="" />
+          16. <img id="pic31" src="images/user.png" alt="" />
+        </div>
+        <div class="column">
+          <h3>Southpaw</h3>
+          <img id="pic18" src="images/user.png" alt="" />
+          <img id="pic20" src="images/user.png" alt="" />
+          <img id="pic22" src="images/user.png" alt="" />
+          <img id="pic24" src="images/user.png" alt="" />
+          <img id="pic26" src="images/user.png" alt="" />
+          <img id="pic28" src="images/user.png" alt="" />
+          <img id="pic30" src="images/user.png" alt="" />
+          <img id="pic32" src="images/user.png" alt="" />
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="bmtpatterns.js"></script>
+</html>

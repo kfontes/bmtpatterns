@@ -2,8 +2,8 @@
 var counter = 1;
 
 /* Jabs */
-var jabOPic = "file:///Users/kelliefontes/Documents/BMTPatterns/jab-o.jpeg"
-var jabSPPic = "file:///Users/kelliefontes/Documents/BMTPatterns/jab-sp.jpeg"
+var jabOPic = "images/jab-o.jpeg"
+var jabSPPic = "images/jab-sp.jpeg"
 
 function jabPicture(){ 
 
@@ -13,8 +13,8 @@ function jabPicture(){
 }
 
 /* Crosses */
-var crossOPic = "file:///Users/kelliefontes/Documents/BMTPatterns/cross-o.jpeg"
-var crossSPPic = "file:///Users/kelliefontes/Documents/BMTPatterns/cross-sp.jpeg"
+var crossOPic = "images/cross-o.jpeg"
+var crossSPPic = "images/cross-sp.jpeg"
 
 function crossPicture() {
 
@@ -24,8 +24,8 @@ function crossPicture() {
 }
 
 /* Left Hooks */
-var leftHookOPic = "file:///Users/kelliefontes/Documents/BMTPatterns/leftHook-o.jpeg"
-var leftHookSPPic = "file:///Users/kelliefontes/Documents/BMTPatterns/leftHook-sp.jpeg"
+var leftHookOPic = "images/leftHook-o.jpeg"
+var leftHookSPPic = "images/leftHook-sp.jpeg"
 
 function lHPicture(){ 
 
@@ -35,8 +35,8 @@ function lHPicture(){
 }
 
 /* Right Hooks */
-var rightHookOPic = "file:///Users/kelliefontes/Documents/BMTPatterns/rightHook-o.jpeg"
-var rightHookSPPic = "file:///Users/kelliefontes/Documents/BMTPatterns/rightHook-sp.jpeg"
+var rightHookOPic = "images/rightHook-o.jpeg"
+var rightHookSPPic = "images/rightHook-sp.jpeg"
 
 function rHPicture() {
 
@@ -46,8 +46,8 @@ function rHPicture() {
 }
 
 /* Left Uppercuts */
-var leftUCOPic = "file:///Users/kelliefontes/Documents/BMTPatterns/leftUC-o.jpeg"
-var leftUCSPPic = "file:///Users/kelliefontes/Documents/BMTPatterns/leftUC-sp.jpeg"
+var leftUCOPic = "images/leftUC-o.jpeg"
+var leftUCSPPic = "images/leftUC-sp.jpeg"
 
 function leftUCPicture(){ 
 
@@ -57,8 +57,8 @@ function leftUCPicture(){
 }
 
 /* Right Uppercuts */
-var rightUCOPic = "file:///Users/kelliefontes/Documents/BMTPatterns/rightUC-o.jpeg"
-var rightUCSPPic = "file:///Users/kelliefontes/Documents/BMTPatterns/rightUC-sp.jpeg"
+var rightUCOPic = "images/rightUC-o.jpeg"
+var rightUCSPPic = "images/rightUC-sp.jpeg"
 
 function rightUCPicture() {
 
@@ -68,8 +68,8 @@ function rightUCPicture() {
 }
 
 /* Right Overhand */
-var rightOHOPic = "file:///Users/kelliefontes/Documents/BMTPatterns/rightOH-o.jpeg"
-var rightOHSPPic = "file:///Users/kelliefontes/Documents/BMTPatterns/rightOH-sp.jpeg"
+var rightOHOPic = "images/rightOH-o.jpeg"
+var rightOHSPPic = "images/rightOH-sp.jpeg"
 
 function rightOHPicture() {
 
@@ -79,8 +79,8 @@ function rightOHPicture() {
 }
 
 /* Left Slips */
-var leftSOPic = "file:///Users/kelliefontes/Documents/BMTPatterns/leftS-o.jpeg"
-var leftSSPPic = "file:///Users/kelliefontes/Documents/BMTPatterns/leftS-sp.jpeg"
+var leftSOPic = "images/leftS-o.jpeg"
+var leftSSPPic = "images/leftS-sp.jpeg"
 
 function leftSlipPicture(){ 
 
@@ -90,8 +90,8 @@ function leftSlipPicture(){
 }
 
 /* Right Slips */
-var rightSOPic = "file:///Users/kelliefontes/Documents/BMTPatterns/rightS-o.jpeg"
-var rightSSPPic = "file:///Users/kelliefontes/Documents/BMTPatterns/rightS-sp.jpeg"
+var rightSOPic = "images/rightS-o.jpeg"
+var rightSSPPic = "images/rightS-sp.jpeg"
 
 function rightSlipPicture() {
 
@@ -101,8 +101,8 @@ function rightSlipPicture() {
 }
 
 /* Left Rolls */
-var leftRollOPic = "file:///Users/kelliefontes/Documents/BMTPatterns/leftRoll-o.jpeg"
-var leftRollSPPic = "file:///Users/kelliefontes/Documents/BMTPatterns/leftRoll-sp.jpeg"
+var leftRollOPic = "images/leftRoll-o.jpeg"
+var leftRollSPPic = "images/leftRoll-sp.jpeg"
 
 function leftRollPicture(){ 
 
@@ -112,8 +112,8 @@ function leftRollPicture(){
 }
 
 /* Right Rolls */
-var rightRollOPic = "file:///Users/kelliefontes/Documents/BMTPatterns/rightRoll-o.jpeg"
-var rightRollSPPic = "file:///Users/kelliefontes/Documents/BMTPatterns/rightRoll-sp.jpeg"
+var rightRollOPic = "images/rightRoll-o.jpeg"
+var rightRollSPPic = "images/rightRoll-sp.jpeg"
 
 function rightRollPicture() {
 
